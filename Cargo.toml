@@ -1,0 +1,11 @@
+
+[package]
+name = "tradesize"
+version = "0.1.0"
+authors = ["Eric Davis <edavis@insanum.com>"]
+edition = "2018"
+
+[dependencies]
+getopts = "0.2"
+colored = "2"
+
