@@ -112,19 +112,19 @@ fn main() -> Result<(), Box<dyn std::error::Error>>
 
     println!("");
 
-    println!("{}", fmt_line(price, 10.0, pos_size, Color::Green));
+    println!("{}", fmt_line(price, 10.0, pos_size, Color::Red));
     println!("{}", fmt_line(price, 5.0, pos_size, Color::White));
-    println!("{}", fmt_line(price, 4.0, pos_size, Color::Cyan));
-    println!("{} <--", fmt_line(price, 3.0, pos_size, Color::Blue));
-    println!("{}", fmt_line(price, 2.0, pos_size, Color::White));
+    println!("{}", fmt_line(price, 4.0, pos_size, Color::Yellow));
+    println!("{}", fmt_line(price, 3.0, pos_size, Color::White));
+    println!("{}", fmt_line(price, 2.0, pos_size, Color::Green));
     println!("{}", fmt_line(price, 1.0, pos_size, Color::White).underline());
     println!("{}", fmt_line(price, 0.0, pos_size, Color::Magenta).underline());
-    println!("{} <--", fmt_line(price, -1.0, pos_size, Color::White));
-    println!("{}", fmt_line(price, -2.0, pos_size, Color::Yellow));
+    println!("{}", fmt_line(price, -1.0, pos_size, Color::White));
+    println!("{}", fmt_line(price, -2.0, pos_size, Color::Green));
     println!("{}", fmt_line(price, -3.0, pos_size, Color::White));
-    println!("{}", fmt_line(price, -4.0, pos_size, Color::Red));
+    println!("{}", fmt_line(price, -4.0, pos_size, Color::Yellow));
     println!("{}", fmt_line(price, -5.0, pos_size, Color::White));
-    println!("{}", fmt_line(price, -10.0, pos_size, Color::White));
+    println!("{}", fmt_line(price, -10.0, pos_size, Color::Red));
 
     println!("");
 
